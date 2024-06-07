@@ -23,7 +23,7 @@ const Navbar = () => {
             placeholder="EXPLORE"
             className="outline-none w-full px-2"
           />
-          <IoIosSearch className="text-gray-500" />
+          <IoIosSearch className="text-gray-600" />
         </div>
       </div>
     </div>
