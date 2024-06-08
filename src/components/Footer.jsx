@@ -7,10 +7,11 @@ const Footer = () => {
     <div className="p-4 bg-gray-100">
       <div className="flex flex-col lg:flex-row lg:justify-evenly space-y-8 lg:space-y-0 lg:space-x-8">
         
-        <div className="flex flex-col items-center space-y-4">
-          <img src={logo} alt="Logo" className="w-32 h-auto" />
+        <div className="flex flex-col items-center space-y-8">
+        
+            <img src={logo} alt="Logo" className="w-36 h-18" />
           <h1 className="text-xl font-bold">Subscribe With Us</h1>
-          <p className="text-center">
+          <p className="">
             Sign up now and be the first to know <br /> 
             about new products, offers and <br /> 
             exciting news and announcements.
@@ -20,7 +21,9 @@ const Footer = () => {
             placeholder="Enter your email address"
             className="border p-2 rounded w-full max-w-md"
           />
-          <div className="flex space-x-2">
+    
+      
+          <div className="flex space-x-2 my-0">
             <a href="https://www.linkedin.com" className="text-blue-700">
               <FaLinkedin className="w-6 h-6" />
             </a>
